@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Scan</ion-title>
+    <ion-icon name="exit" class="edit vertical-center iconpp" color="cin"  (click)="logOut()"></ion-icon>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding align-items-center>
+  <div class="btnContainer">
+    <ion-buttons>
+      <div>
+        <button ion-button outline><ion-icon name="search" class="adding" (click)="searchProduct()"></ion-icon></button>
+        <p class="text"><b class="text">PROCURAR PRODUTO</b></p>
+      </div>
+      <div class="middle">
+        <button ion-button outline (click)="scan()" class="scanBtn"><ion-icon name="barcode" class="adding scanIc "></ion-icon></button>
+        <p class="text"><b>FAZER SCAN</b></p>
+      </div>
+
+      <div class="last">
+        <button ion-button outline (click)="pop()"><ion-icon name="keypad" class="adding"></ion-icon></button>
+        <p class="text"><b>DIGITAR CÓDIGO</b></p>
+      </div>
+    </ion-buttons>
+  </div>
+
+</ion-content>

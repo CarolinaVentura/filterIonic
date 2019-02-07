@@ -1,0 +1,71 @@
+page-login {
+  ion-img{
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: center;
+    padding-bottom: 66%
+  }
+
+  .divImg {
+    text-align: center;
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    padding-top: 28%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 23%;
+    align-items: center;
+  }
+
+  .butao, .butao:hover{
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    margin-bottom: 2%;
+    background-color: #f2f2f3 !important;
+    padding-bottom:7%;
+    padding-top:7%;
+  }
+
+  .divBtns, .butao{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ic{
+    margin-right: 5%;
+    font-size: x-large;
+  }
+
+  .check{
+    float: left;
+  }
+
+  .log{
+    display: block !important;
+    text-align: center;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 5%;
+  }
+
+  .register{
+    margin-top: -1% !important;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+
+
+}

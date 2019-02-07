@@ -1,0 +1,35 @@
+page-search-product {
+
+  .margin{
+    margin-bottom: 7.5% !important;
+    margin-top: 7.5% !important;
+  }
+
+  .searchbar-md {
+    background: inherit !important;
+    padding: 2px !important;
+    position: fixed !important;
+    top: 10% !important;
+    -webkit-backface-visibility: hidden !important;
+    z-index: 10000 !important;
+    margin-top: -10% !important;
+    margin-bottom: 10% !important;
+  }
+
+  .group{
+    margin-top: 5%;
+  }
+
+  .divider{
+    position: fixed;
+    top: 0;
+    -webkit-backface-visibility: hidden !important;
+    background-color: #ffffff;
+    padding-bottom: 10%;
+  }
+
+  .dividerText{
+    color: #FFFFFF;
+  }
+
+}

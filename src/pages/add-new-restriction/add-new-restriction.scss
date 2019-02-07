@@ -1,0 +1,43 @@
+page-add-new-restriction {
+
+  .searchbar-md {
+    background: inherit !important;
+    padding: 2px !important;
+    position: fixed !important;
+    top: 10% !important;
+    -webkit-backface-visibility: hidden !important;
+    z-index: 10000 !important;
+    margin-top: -10% !important;
+  }
+
+
+  .btn{
+    //position: fixed;
+    //bottom: 20%;
+    margin-top: -1% !important;
+    padding-top: 6% !important;
+    padding-bottom: 6% !important;
+    -webkit-backface-visibility: hidden !important;
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    z-index: 1000 !important;
+    margin-bottom: 5% !important;
+  }
+
+  .footer{
+    position: fixed !important;
+    bottom: 0 !important;
+    -webkit-backface-visibility: hidden !important;
+    background-color: #FFFFFF !important;
+    z-index: 10000 !important;
+  }
+
+
+
+  .scroll-content {
+    padding: 16px;
+    margin-top: 9%;
+  }
+}

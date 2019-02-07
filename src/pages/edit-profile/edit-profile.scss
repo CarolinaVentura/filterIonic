@@ -1,0 +1,23 @@
+page-edit-profile {
+  .conf {
+    position: absolute;
+    left: 60%;
+  }
+
+  .credenciais{
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .segundo{
+    position: fixed;
+    bottom: 0;
+    margin-top: -3% !important;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-bottom: 7%;
+    -webkit-backface-visibility: hidden;
+  }
+}

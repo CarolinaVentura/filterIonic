@@ -1,0 +1,45 @@
+page-choose-avatar {
+
+  .loginpp {
+    text-align: center;
+  }
+
+  .btn{
+    //position: fixed;
+    //bottom: 20%;
+    margin-top: 11% !important;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    -webkit-backface-visibility: hidden;
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .avatars{
+    width: 50%;
+    height: 50%;
+  }
+
+
+  .bar{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 92%;
+  }
+
+  .swiper-container-horizontal, .swiper-pagination-bullets {
+    left: 0;
+    bottom: 0px !important;
+    width: 100%;
+  }
+
+  .slide-zoom{
+    padding-bottom: 10%;
+    padding-top: 4%;
+  }
+}

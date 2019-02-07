@@ -1,0 +1,53 @@
+<!--
+  Generated template for the ChooseIngredientsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+
+  <br>
+  <ion-list class="total">
+
+    <div class="title">
+      <h3>Escolhe os ingredientes que queres restringir</h3>
+    </div>
+
+    <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="setFilteredItems()" placeholder="Procurar" class="search" col-11 ></ion-searchbar>
+
+      <ion-scroll scrollY="true" style="width: 100%; height: 110%">
+      <ion-item-group *ngFor="let ingredient of ingredientsFiltered; let i = index">
+        <ion-item-divider>
+          <ion-label col-10>{{ingredient.name}}</ion-label>
+
+          <ion-label><ion-checkbox (ionChange)="checkFunction(ingredient.id, i, ingredient.name)"></ion-checkbox></ion-label>
+
+        </ion-item-divider>
+      </ion-item-group>
+
+      </ion-scroll>
+
+
+
+
+  </ion-list>
+
+
+
+  <ion-footer class="footer" no-border padding>
+    <img src="assets/imgs/progress3-4-01.png" class="bar">
+
+    <button ion-button col-11 outline class="btn" (click)="goto()">Continuar</button>
+  </ion-footer>
+
+</ion-content>

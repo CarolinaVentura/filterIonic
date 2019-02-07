@@ -1,0 +1,66 @@
+<!--
+  Generated template for the ChooseAvatarPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding class="container">
+
+  <br>
+  <ion-list>
+
+    <h3>Escolhe o teu avatar</h3>
+    <p>Nesta fase do registo, tens oportunidade de escolher o avatar com que mais te identificas. Ele será definido como a tua imagem de perfil.</p>
+    <br>
+
+
+    <ion-slides #mySlider pager="true" (ionSlideDidChange)="slideIndex()">
+      <ion-slide>
+        <img src="assets/imgs/avatar1.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar2.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar3.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar4.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar5.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar6.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar7.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar8.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar9.png" class="avatars">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/avatar10.png" class="avatars">
+      </ion-slide>
+    </ion-slides>
+
+
+    <img src="assets/imgs/progress2-4-01.png" class="bar">
+
+    <button ion-button col-11 outline class="btn" (click)="chooseThisOne()">Continuar</button>
+
+
+
+  </ion-list>
+</ion-content>

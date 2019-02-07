@@ -1,0 +1,43 @@
+page-register-personal-data {
+
+  .loginpp {
+    text-align: center;
+  }
+
+  .btn{
+    //position: fixed;
+    //bottom: 20%;
+    margin-top: 11% !important;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    -webkit-backface-visibility: hidden;
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .inputs{
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .tato{
+    display: none;
+  }
+
+  .labels{
+    font-size: 0.95em;
+  }
+
+  img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%;
+    width: 92%;
+  }
+}

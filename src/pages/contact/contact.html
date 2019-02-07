@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>O meu perfil</ion-title>
+    <ion-icon name="exit" class="new" color="cin" (click)="logOut()"></ion-icon>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-icon name="create" class="edit vertical-center iconpp edited" (click)="editProfile()" color="cin"></ion-icon>
+
+  <div class="credenciais divInicio">
+    <div class="credenciais divInicio">
+      <img src="{{avatar}}">
+      <br>
+      <div class="name" *ngIf="name">
+        <p>{{name}}</p>
+      </div>
+    </div>
+  </div>
+  <ion-item padding align-items-center class="separador">
+
+  </ion-item>
+
+
+    <ul class="list text-align: center form">
+      <li class="item" *ngIf="email" >
+        <p>Email: {{email}}</p>
+      </li>
+    </ul>
+    <ul class="list text-align: center ">
+      <li class="item pass">
+        <p>Password: **********</p>
+      </li>
+    </ul>
+
+
+
+  <br>
+
+  <div class="credenciais">
+    <button ion-button col-11 outline class="credenciais primeiro" (click)="gotoRestrictions()">Ver as minhas restrições</button>
+    <br>
+    <button ion-button col-11 outline class="credenciais segundo" (click)="gotoFavourites()">Ver os meus favoritos</button>
+  </div>
+
+
+
+
+</ion-content>

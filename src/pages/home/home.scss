@@ -1,0 +1,60 @@
+page-home {
+
+  .text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #00d2e8 !important;
+    margin-top: 3%;
+  }
+
+  .button-outline-md {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    height: 6em;
+  }
+
+  .adding{
+    font-size: 3em;
+  }
+
+  .btnContainer{
+    position: relative;
+    top: 10%;
+    vertical-align: middle !important;
+    margin-bottom: auto !important;
+    margin-top: auto !important;
+  }
+
+  .last, .middle {
+    margin-top: 7% !important;
+  }
+
+  .scanBtn{
+    background-color: #00d2e8 !important;
+  }
+
+  .scanIc{
+    color: #ffffff;
+  }
+
+  .iconpp {
+    position: absolute;
+    left: 90%;
+
+  }
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .edit{
+    font-size: 25px;
+  }
+
+}

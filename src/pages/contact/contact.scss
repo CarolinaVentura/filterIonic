@@ -1,0 +1,105 @@
+page-contact {
+  .textp{
+    position: absolute;
+    left: 36%;
+  }
+  .iconpp {
+    position: absolute;
+    left: 90%;
+
+  }
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .edit{
+    font-size: 25px;
+  }
+
+  .TS {
+    text-align: center;
+  }
+
+  #person{
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+
+  }
+
+  .divInicio{
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+
+  .name{
+    margin-top: 3% !important;
+  }
+
+  .credenciais{
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .ing{
+    margin-top: 5% !important;
+  }
+
+  .primeiro{
+    //margin-top: 5% !important;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+
+  .segundo{
+    margin-top: -3% !important;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-bottom: 7%;
+  }
+
+  .separador{
+    margin-top: -17% !important;
+    background: none;
+  }
+
+  .form{
+    margin-top: -1%;
+  }
+
+  .pass{
+    margin-top: -5% !important;
+  }
+
+  .ion-md-create:before{
+    position: relative;
+    top: 2em;
+  }
+
+  .new{
+    position: absolute;
+    left: 90%;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 25px;
+  }
+
+  .ion-md-create:before {
+    position: relative;
+    top: -9.2em;
+  }
+
+  img {
+    max-width: 34%;
+    border: 0;
+  }
+}

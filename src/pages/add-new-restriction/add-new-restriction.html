@@ -1,0 +1,41 @@
+<!--
+  Generated template for the AddNewRestrictionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Adicionar nova restrição</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <br>
+
+  <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="setFilteredItems()" placeholder="Procurar" class="search" col-11 ></ion-searchbar>
+
+  <ion-scroll scrollY="true" style="width: 100%; height: 82%">
+    <div>
+      <ion-item-group *ngFor="let ingredient of ingredientsFiltered, let i = index">
+        <ion-item-divider>
+          <ion-label col-10>{{ingredient.name}}</ion-label>
+
+          <div></div>
+          <ion-label class="container"><ion-checkbox checked="{{ingredient.value}}" (ionChange)="checkFunction(i)"></ion-checkbox></ion-label>
+
+
+        </ion-item-divider>
+      </ion-item-group>
+
+    </div>
+  </ion-scroll>
+
+  <ion-footer class="footer" no-border padding>
+
+    <button ion-button col-11 outline class="btn" (click)="checkedOrUnchecked()">Adicionar</button>
+  </ion-footer>
+</ion-content>

@@ -1,0 +1,77 @@
+page-confirm-ingredients {
+
+  .searchbar-md {
+    background: inherit;
+    padding: 2px;
+    position: fixed;
+    top: 10%;
+    -webkit-backface-visibility: hidden !important;
+    z-index: 10000;
+    margin-top: 10%;
+  }
+
+
+  .title{
+    position: fixed;
+    top: 0;
+    -webkit-backface-visibility: hidden !important;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    padding-top: 9%;
+  }
+
+  .list{
+    margin-top: 34%;
+    height: 50%;
+    margin-bottom: 34%;
+  }
+
+  .bar{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 92%;
+    z-index: 1000;
+  }
+
+  .btn{
+    //position: fixed;
+    //bottom: 20%;
+    margin-top: 11% !important;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    -webkit-backface-visibility: hidden;
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    z-index: 1000;
+    margin-bottom: 5%;
+  }
+
+  .footer{
+    position: fixed;
+    bottom: 0;
+    -webkit-backface-visibility: hidden;
+    background-color: #FFFFFF;
+    z-index: 10000;
+  }
+
+  .total{
+    margin-bottom: 10%;
+  }
+
+  .tato{
+    color: #FFFFFF;
+  }
+
+  .final{
+    width: 100%;
+    height: 150% !important;
+    margin-top: -18% !important;
+  }
+
+
+}

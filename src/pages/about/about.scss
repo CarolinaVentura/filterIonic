@@ -1,0 +1,45 @@
+page-about {
+  img{
+    vertical-align: middle;
+    display: block;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    position: center;
+    margin-left: -12%;
+  }
+
+  .nameProd{
+    margin-left: -10%;
+    position: relative;
+    left: 3%;
+  }
+
+  .dataProd{
+    position: relative;
+    left: 8%;
+  }
+
+  .ion-md-star-outline:before, .ion-md-star:before {
+    color: #ffe234 !important;
+    font-size: xx-large;
+    margin-left: 104%;
+  }
+
+  .iconpp {
+    position: absolute;
+    left: 90%;
+
+  }
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .edit{
+    font-size: 25px;
+  }
+
+}

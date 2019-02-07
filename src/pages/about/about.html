@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      O meu histórico
+    </ion-title>
+
+      <ion-icon name="exit" class="edit vertical-center iconpp" (click)="logOut()" color="cin"></ion-icon>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ng-container *ngIf="count==0">
+        <p>Não tens nenhum histórico ainda.</p>
+    </ng-container>
+
+        <ion-item-group *ngFor="let product of products; let i=index">
+
+
+            <ion-item-divider>
+
+                <ion-label class="container" *ngIf="product.pivot.feedback == 1">
+                    <img src="../assets/imgs/podesConsumir-01.png">
+                </ion-label>
+
+                <ion-label class="container" *ngIf="product.pivot.feedback == 0">
+                    <img src="../assets/imgs/naoConsumir-01.png">
+                </ion-label>
+
+
+
+
+
+                <ion-label class="nameProd" col-6 (click)="more(product.id)">{{product.name}}</ion-label>
+                <ion-label class="dataProd">{{product.pivot.created_at.substring(8,11)}}-{{product.pivot.created_at.substring(5,7)}}
+                    &nbsp;
+
+                </ion-label>
+                <ion-label  class="container"  *ngIf="product.pivot.fav == 0"><ion-icon name="star-outline" class="ic" (click)="toFavor(product.id, i)"></ion-icon></ion-label>
+
+                <ion-label  class="container"  *ngIf="product.pivot.fav == 1"><ion-icon name="star" class="ic" (click)="takeFavor(product.id, i)"></ion-icon></ion-label>
+
+
+
+            </ion-item-divider>
+        </ion-item-group>
+
+
+</ion-content>

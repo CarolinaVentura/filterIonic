@@ -1,0 +1,35 @@
+page-show-restrictions {
+  .ic{
+    font-size: xx-large;
+  }
+
+  .credenciais{
+    display: block !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .segundo, .back{
+    position: fixed;
+    bottom: 0;
+    z-index: 1001;
+    background-color: #FFFFFF;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    -webkit-backface-visibility: hidden;
+    margin-bottom: 7%;
+  }
+
+  .back{
+    position: fixed;
+    bottom: -5%;
+    height: 13.9%;
+    -webkit-backface-visibility: hidden;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    z-index: 1000;
+    background-color: #FFFFFF;
+
+  }
+}
